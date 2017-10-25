@@ -1,3 +1,7 @@
-#wall div {
+#wall > div {
+  display: none;
+}
+
+.tag-1 + div {
   display: none;
 }
